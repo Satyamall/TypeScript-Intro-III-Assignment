@@ -1,0 +1,12 @@
+{
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES5",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "declaration": true,
+        "sourceMap": false
+    }
+}
